@@ -5,7 +5,7 @@ export default async function Home() {
 
   return (
     <main>
-      <h1>Hello Nextjs Coolify!</h1>
+      <h1>Hello Nextjs Coolify Hehe!</h1>
       {notes.map((note) => {
         return <div key={note.id}>{note.content}</div>;
       })}
